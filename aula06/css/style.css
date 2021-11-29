@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*o padding, por ex, não aumenta o tamanho da caixa*/
+}
+
+#caixa1{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: darkred;
+  transition: ease 1s;
+}

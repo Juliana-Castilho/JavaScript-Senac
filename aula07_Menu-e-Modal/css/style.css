@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#menu {
+  background-color: rgba(0,0,0, 0.85);
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  left: -200px;
+  padding: 100px 0 0 0;
+  transition: ease 0.5s;
+}
+#menu li {
+  padding: 0 0 20px 10px;
+}
+#menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+}
+#fechar{
+  color: #fff;
+  font-size: 30pt;
+  text-decoration: none;
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}
+#abrir {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  text-decoration: none;
+  padding: 10px;
+  background-color: red;
+  color: white;
+}
+#conteudo section {
+  margin: 50px;
+}
+#conteudo {
+  transition: ease 0.5s;
+}
+#fundomodal {
+  width: 0vw;
+  height: 0vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transition: ease 0.2s;
+}
+
+#caixamodal {
+  background-color: #fff;
+  width: 50vw;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+#caixamodal img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+#caixamodal #cabecalho {
+  display: flex;
+  flex-direction: row; /* um elemento ao lado do outro */
+  align-items: center;
+}
+
+#caixamodal #cabecalho #fecharmodal {
+  text-decoration: none;
+  font-size: 30pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#caixamodal #cabecalho h2 {
+  width: 97%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}

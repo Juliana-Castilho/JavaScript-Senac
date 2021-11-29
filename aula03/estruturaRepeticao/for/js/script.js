@@ -57,5 +57,4 @@ function for3(){
     body.appendChild(div);
 
   }
-
 }
